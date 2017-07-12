@@ -23,4 +23,8 @@
     <PackageReference Include="Net.Chdk.Meta.Model.Camera" Version="0.1.0-alpha" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Providers.Core\src\Net.Chdk.Meta.Providers.Core\Net.Chdk.Meta.Providers.Core.csproj" />
+  </ItemGroup>
+
 </Project>
